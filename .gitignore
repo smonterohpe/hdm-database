@@ -1,0 +1,15 @@
+# Backups locales
+backups/
+*.sql.gz
+*.dump
+
+# Variables de entorno con credenciales
+.env
+.env.local
+*.env
+
+# Docker volumes locales
+docker/pgdata/
+
+# Logs
+*.log
